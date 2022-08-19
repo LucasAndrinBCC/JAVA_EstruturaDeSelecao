@@ -28,12 +28,12 @@ public class Exe9 {
 		
 		System.out.println(sexo);
 		
-		if (sexo.equals("Masculino")) {
+		if (sexo.equalsIgnoreCase("Masculino")) {
 			
 			pesoIdeal = (72.7f * altura) - 58f;
 			apresentaDados(pesoIdeal, altura, peso, sexo);
 			
-		} else if (sexo.equals("Feminino")) {
+		} else if (sexo.equalsIgnoreCase("Feminino")) {
 			
 			pesoIdeal = (62.1f * altura) - 44.7f;
 			apresentaDados(pesoIdeal, altura, peso, sexo);
